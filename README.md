@@ -1,3 +1,5 @@
 # git-control-flow
 
-the first commit 
+the first commit from remote master 
+
+ 
