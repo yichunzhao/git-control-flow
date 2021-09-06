@@ -33,3 +33,5 @@ removing the arrows and = signs, and merge both line to be expected and then com
 
 
 Introducing changes at the branch main; modified at the same line at the new-feature branch.
+
+something new from new feature branch
