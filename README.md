@@ -32,4 +32,4 @@ below the = and before the greater-than arrow is the conflicted one
 removing the arrows and = signs, and merge both line to be expected and then commit
 
 
-Introducing changes at the branch main;
+Introducing changes at the branch main; modified at the same line at the new-feature branch.
