@@ -26,6 +26,6 @@ starting from the less-than arrow and above the = is the latest change that you 
 
 below the = and before the greater-than arrow is the target code that conflict with your commited code.
 
-It may remove the arrows and '='signs, and merge both lines as what it should be then commit
+It may remove the arrows and '='signs, and merge both lines as what it should be', and then commit
 
 
