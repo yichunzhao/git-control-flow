@@ -17,21 +17,15 @@ To push the current branch and set the remote as upstream, use
 ````
 
 
-if modify on the same line;????? ++++---- modification from feature branch
-
-
-**Solving merge conflit**
+**Solving merge conflit manually**
 
 
 ![image](https://user-images.githubusercontent.com/17804600/122664186-17406200-d1a0-11eb-8c31-6d7a74d9f33a.png)
 
-starting from the less-than arrow and above the =, it is the latest change. 
+starting from the less-than arrow and above the = is the latest change that you made from the feature branch. 
 
-below the = and before the greater-than arrow is the conflicted one
+below the = and before the greater-than arrow is the target code that conflict with your commited code.
 
-removing the arrows and = signs, and merge both line to be expected and then commit
+It may remove the arrows and '='signs, and merge both lines as what it should be then commit
 
 
-Introducing changes at the branch main; modified at the same line at the new-feature branch.
-
-something new from new feature branch add a new line from main; 
