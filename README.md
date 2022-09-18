@@ -30,7 +30,7 @@ It may remove the arrows and '='signs, and merge both lines as what it should be
 
 ## Untrack File
 
-Sometime it may need to untrack a file in a repository. It may due to a git add all operation.
+Sometime it may need to untrack a file in a repository. It may due to a git add all operation. 
 
 ````
 git rm --cached <filename>
@@ -40,4 +40,10 @@ or more than one file
 
 ````
 git rm --cached <filename>  <filename2>  <filename3>
+````
+
+The cached option means a removing operation without a delete. If want to delete the file, then ignoring cache option, after commiting to the repository, other developers' repository will remove this file.
+
+````
+git rm <filename>
 ````
