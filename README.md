@@ -28,4 +28,16 @@ below the = and before the greater-than arrow is the target code that conflict w
 
 It may remove the arrows and '='signs, and merge both lines as what it should be', and then commit
 
+## Untrack File
 
+Sometime it may need to untrack a file in a repository. It may due to a git add all operation.
+
+````
+git rm --cached <filename>
+````
+
+or more than one file
+
+````
+git rm --cached <filename>  <filename2>  <filename3>
+````
