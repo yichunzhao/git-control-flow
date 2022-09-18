@@ -30,7 +30,7 @@ It may remove the arrows and '='signs, and merge both lines as what it should be
 
 ## Untrack File
 
-Sometime it may need to untrack a file in a repository. It may due to a git add all operation. 
+Sometime it may need to untrack a file in a repository. It may due to a `git add .` operation. 
 
 ````
 git rm --cached <filename>
@@ -46,4 +46,12 @@ The cached option means a removing operation without a delete. If want to delete
 
 ````
 git rm <filename>
+````
+
+## Reset To Previous Commmit
+
+Sometime it needs to give up current changes and so as to roll back to a previous commit.
+
+````
+git reset --hard
 ````
