@@ -1,24 +1,18 @@
-# git-control-flow
+# git-control
 
-the first commit from remote master 
 
-add a line from local main 
+## Solving 'having no upstream branch'
 
-creating a new branch and check it out: git checkout -b feature
-
-**Solving 'having no upstream branch'**
+Sometimes, when push the commit to the remote,
 
 C:\Users\zhaoy\IdeaProjects\git-control-flow>git push
 fatal: The current branch feature has no upstream branch.
 To push the current branch and set the remote as upstream, use
-    
-````
-    git push --set-upstream origin feature
-````
 
+It needs to link the local repository to the remote repository, by    
+`git push --set-upstream origin feature`
 
-**Solving merge conflit manually**
-
+## Solving Merge Conflit Manually
 
 ![image](https://user-images.githubusercontent.com/17804600/122664186-17406200-d1a0-11eb-8c31-6d7a74d9f33a.png)
 
