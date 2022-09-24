@@ -9,8 +9,7 @@ C:\Users\zhaoy\IdeaProjects\git-control-flow>git push
 fatal: The current branch feature has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
-It needs to link the local repository to the remote repository, by    
-`git push --set-upstream origin feature`
+It needs to link the local repository to the remote repository, by  `git push --set-upstream origin feature` 
 
 ## Solving Merge Conflit Manually
 
